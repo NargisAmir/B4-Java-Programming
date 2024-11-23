@@ -1,4 +1,4 @@
-package day08_;
+package day08_scanner_logical_operators;
 
 public class EligibleToVote {
     public static void main(String[] args) {
@@ -15,7 +15,7 @@ public class EligibleToVote {
         System.out.println(name + "is eligible to vote: " + isElgible);
 
         System.out.println("=====================");
-        name = "James Bond";
+        name = "James Bond ";
         isCitizen = true;
         isCriminal = false;
 
