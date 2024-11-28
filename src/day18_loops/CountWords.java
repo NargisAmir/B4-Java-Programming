@@ -14,7 +14,7 @@ public class CountWords {
             }
         }
 
-
+        System.out.println("There are " + (countSpace +1) + " words in this sentence ");
 
     }
 }

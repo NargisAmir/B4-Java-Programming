@@ -4,13 +4,13 @@ import java.sql.SQLOutput;
 
 public class Palindrome {
     public static void main(String[] args) {
-        String word = "anna";
+        String word = "Anna";
         String reverse = "";
 
         /*
         check the original word is same with reversedWord
         1.reverse the word
-        get each char from end and put to the begining
+        get each char from end and put to the beginning
          .charAt()
          */
 
@@ -27,6 +27,7 @@ public class Palindrome {
             System.out.println("it is not polindrome");
         }
 
+        //with turnary
         System.out.println(word.equalsIgnoreCase(reverse)? "it is a palindrome" : "it is not polindrome");
 
     }

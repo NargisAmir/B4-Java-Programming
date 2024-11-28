@@ -11,7 +11,7 @@ public class ShoppingList {
          do{
              System.out.print("Please enter the name of the item: ");
              // userItem= key.nextLine();
-             shoppingList =shoppingList+"\n\t"  + key.nextLine();
+             shoppingList =shoppingList + "\n\t"  + key.nextLine();
 
              System.out.print("do you want to add more item (yes/no) ");
              userAnswer = key.nextLine();
