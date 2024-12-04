@@ -10,7 +10,7 @@ public class FriendsList {
 
         String [] friendList = new String[key.nextInt()];
 
-         key.nextLine();
+         key.nextLine();//handling enter issue
         for (int i = 0; i < friendList.length; i++) {
 
             System.out.print("Please enter the name " + (i+1) + " : ");
