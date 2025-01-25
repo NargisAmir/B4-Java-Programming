@@ -5,8 +5,6 @@ public class RemoveDuplicates {
         String str = "abcabbcd";
         String unique = "";
 
-
-
         for (int i = 0; i < str.length(); i++) {
             char eachChar = str.charAt(i);
 

@@ -12,7 +12,7 @@ public class SubStringMethod {
         System.out.println("Sat "+ word.substring(3));
 
         System.out.println(  word.substring(1,2));
-        System.out.println(  word.substring(0,3));
+        System.out.println( 1+ word.substring(0,3));
 
         System.out.println(  word.substring(5,8));
        // System.out.println(  word.substring(5,9));// StringIndexOutOfBoundsException
